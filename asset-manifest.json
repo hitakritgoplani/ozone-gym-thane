@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ozone-gym-thane/static/css/main.a1d46389.css",
+    "main.js": "/ozone-gym-thane/static/js/main.118df48b.js",
+    "static/js/787.ce6fbace.chunk.js": "/ozone-gym-thane/static/js/787.ce6fbace.chunk.js",
+    "static/media/ozone.jpeg": "/ozone-gym-thane/static/media/ozone.b7b5a14c4e365433bed4.jpeg",
+    "static/media/whole.jpg": "/ozone-gym-thane/static/media/whole.e4e2532dd92121b2f393.jpg",
+    "static/media/ozone.jpg": "/ozone-gym-thane/static/media/ozone.49acf51de6844b7b3f30.jpg",
+    "index.html": "/ozone-gym-thane/index.html",
+    "main.a1d46389.css.map": "/ozone-gym-thane/static/css/main.a1d46389.css.map",
+    "main.118df48b.js.map": "/ozone-gym-thane/static/js/main.118df48b.js.map",
+    "787.ce6fbace.chunk.js.map": "/ozone-gym-thane/static/js/787.ce6fbace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1d46389.css",
+    "static/js/main.118df48b.js"
+  ]
+}
