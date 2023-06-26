@@ -1,0 +1,82 @@
+.loc{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 33%;
+}
+.location-div{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 10vh;
+}
+.my-foot{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #000;
+	color: white;
+	font-size: 2vw;
+}
+.location-div-text{
+	text-decoration: none;
+	color:  #007BFF;
+}
+.location-div-text:hover{
+	text-decoration: underline;
+}
+.location-div-text::selection{
+	background-color: white;
+	color: black;
+}
+.insta>a{
+	color: #C13584;
+	text-decoration: none;
+}
+.contact::selection{
+	background-color: white;
+	color: black;
+}
+.para::selection{
+	background-color: white;
+	color: black;
+}
+.insta>a:hover{
+	background: linear-gradient(to left,
+	#833AB4,#C13584,#E1306C);
+            -webkit-background-clip: text;
+            color: transparent;
+	text-decoration:wavy #E1306C;
+}
+.insta>a::selection{
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+.my-foot::selection{
+	background-color: white;
+	color: #000;
+}
+.insta{
+	padding-top: 15vh;
+	padding-bottom: 8vh;
+}
+@media screen and (max-width: 820px) {
+	.my-foot{
+		font-size: 3vw;
+	}
+	.loc{
+		width: 95%;
+		text-align: center;
+	}
+	.location-div{
+		flex-direction: column;
+	}
+	.contact{
+		padding-top: 7vh;
+	}
+	.insta{
+		padding-top: 10vh;
+	}
+}

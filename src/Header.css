@@ -1,0 +1,43 @@
+.behind{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5vh 5vw 5vh 5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	background-color: #000;
+	height: 7%;
+	width: 100%;
+	position: fixed;
+	margin-top: 0;
+	z-index: 10;
+}
+header>a>h1{
+	font-weight: bolder;
+	color: white;
+}
+header>a{
+	text-decoration: none;
+}
+.ffc{
+	color: white;
+	font-size: 25px;
+}
+.logo{
+	width: 140px;
+	height: 45px;
+	object-fit: contain;
+}
+@media screen and (max-width: 820px) {
+	.logo{
+		visibility: hidden;
+	}
+	.behind{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5vh 0 5vh 0;
+		text-align: center;
+		overflow-y: hidden;
+	}
+}

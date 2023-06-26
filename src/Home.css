@@ -1,0 +1,29 @@
+.home-root{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 32vh;
+}
+h1,h2{
+	color: #000;
+	font-size: 3.5vw; 
+	text-align: center;
+}
+*::selection{
+	color: whitesmoke;
+	background-color: #000;
+}
+.largename{
+	font-size: 190%;
+	color: red;
+}
+.premium{
+	color: goldenrod;
+}
+@media screen and (max-width: 768px) {
+	h1,h2{
+		font-size: 5vw;
+	}
+}
